@@ -1,0 +1,29 @@
+{
+  "name": "pefi",
+  "version": "0.1.0",
+  "description": "Discord Moderation Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pepijn-DB/Pefi.git"
+  },
+  "author": "Pepijn#9953",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pepijn-DB/Pefi/issues"
+  },
+  "homepage": "https://github.com/Pepijn-DB/Pefi#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.4.1",
+    "@discordjs/voice": "^0.9.0",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "sodium-native": "^3.3.0"
+  }
+}
