@@ -18,12 +18,10 @@ module.exports = {
 					
 		
 					if (value == 'Bahrain') {
-						const channel = client.channels.cache.get('783647060909228063');
-						await channel.send({ content: 'This anwser is correct!', ephemeral: true});
+						await interaction.channel.send({ content: 'This anwser is correct!', ephemeral: true});
 					}
 					else if (value !== 'Bahrain') {
-						const channel = client.channels.cache.get('783647060909228063');
-						await channel.send({ content: 'This anwser is incorrect!', ephemeral: true});
+						await interaction.channel.send({ content: 'This anwser is incorrect!', ephemeral: true});
 					}
 				}
 			}
